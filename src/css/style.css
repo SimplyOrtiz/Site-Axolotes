@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+hr{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+header{
+    background-color: var(--Background-color);
+    color: white;
+    padding: 5em;
+    text-align: center;
+
+    border-bottom: solid rgb(100, 100, 100) .5em;
+
+    background-image: url(../res/axolotl-2193310_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    padding: 2em;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(255 202 202);
+    border: solid red 3px;
+    border-radius: 1em;
+}
+
+.aviso h3{
+    color: red;
+}
+
+.aviso p{
+    margin: 1em;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 1em;
+}
+
+.galeria div div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    border: solid black 2px;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.vivencia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vivencia ul{
+    display: inline-flex;
+    flex-direction: column;
+
+    padding: 2em;
+    border: solid black 2px;
+    border-radius: 1em;
+}
+
